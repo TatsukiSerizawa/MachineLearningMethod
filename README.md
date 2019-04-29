@@ -18,8 +18,6 @@
 
 - Linear regression
 
-- Logistic regression
-
 #### Tree
 
 - Decision tree
