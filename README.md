@@ -10,6 +10,14 @@
 
 - 各手法について数式レベルで理解する
 
+## Study Method
+
+### Day 1
+
+- Linear regression
+
+### Day 2
+
 ## Study Method (Plans)
 
 ### Supervised Learning
