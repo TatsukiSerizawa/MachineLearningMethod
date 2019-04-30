@@ -12,11 +12,15 @@
 
 ## Study Method
 
-### Day 1
+### Day 1 (April 29, Heisei)
 
 - Linear regression
 
-### Day 2
+### Day 2 (April 30, Heisei)
+
+- Decision Tree
+
+- Random Forest
 
 ## Study Method (Plans)
 
