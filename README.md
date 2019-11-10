@@ -26,6 +26,11 @@
 
 - Support Vector Machine (SVM)
 
+
+### Day 4 ()
+
+- 
+
 ## Study Method (Plans)
 
 ### Supervised Learning
