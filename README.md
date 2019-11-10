@@ -22,6 +22,10 @@
 
 - Random Forest
 
+### Day 3 (May, 1, Reiwa)
+
+- Support Vector Machine (SVM)
+
 ## Study Method (Plans)
 
 ### Supervised Learning
