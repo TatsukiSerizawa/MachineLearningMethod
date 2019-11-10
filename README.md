@@ -29,7 +29,7 @@
 
 ### Day 4 ()
 
-- 
+- Convolutional Neural Network (CNN)
 
 ## Study Method (Plans)
 
