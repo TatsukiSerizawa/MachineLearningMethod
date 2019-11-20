@@ -2,7 +2,6 @@
 
 ゴールデンウィークで機械学習手法を復習するレポジトリ
 
-ご即位万歳！10連休万歳！
 
 ## Target
 
@@ -12,22 +11,22 @@
 
 ## Study Method
 
-### Day 1 (April 29, Heisei)
+### Day 1 (29, April, Heisei)
 
 - Linear regression
 
-### Day 2 (April 30, Heisei)
+### Day 2 (30, April, Heisei)
 
 - Decision Tree
 
 - Random Forest
 
-### Day 3 (May, 1, Reiwa)
+### Day 3 (1, May, Reiwa)
 
 - Support Vector Machine (SVM)
 
 
-### Day 4 ()
+### Day 4 (20, November, Reiwa)
 
 - Convolutional Neural Network (CNN)
 
