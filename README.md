@@ -1,7 +1,7 @@
 # Machine Learning Method
 
-ゴールデンウィークで機械学習手法を復習するレポジトリ
-
+ゴールデンウィークで機械学習手法を復習するレポジトリ  
+機械学習や関連技術の試験場
 
 ## Target
 
@@ -29,6 +29,12 @@
 ### Day 4 (20, November, Reiwa)
 
 - Convolutional Neural Network (CNN)
+
+### Day 5 (24, December, Reiwa)
+
+- Random Erasing (Image Data Augmentation Method)  
+[Random Erasingの動きを見てみる](https://qiita.com/takurooo/items/a3cba475a3db2c7272fe)  
+[CNN向けデータ拡張手法のRICAP(Random Image Cropping and Patching)を試してみたメモ](https://blog.knjcode.com/ricap-pytorch-memo/)
 
 ## Study Method (Plans)
 
