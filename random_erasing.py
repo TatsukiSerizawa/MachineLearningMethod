@@ -11,9 +11,6 @@ from keras.datasets import cifar10
 
 (train_X, train_y), (test_X, test_y) = cifar10.load_data()
 
-train_X = train_X.astype('float32') / 255
-test_X = test_X.astype('float32') / 255
-
 # show images
 def show_images(dataset):
     for i in range(4):
@@ -38,16 +35,21 @@ def random_erasing(img):
             S_e = S * np.random.uniform(low=s_l, high=s_h)
             r_e = np.random.uniform(low=r1, high=r2)
 
-            H_e = np.sqrt(S_e * r_e)
-            W_e = np.sqrt(S_e * r_e)
+            H_e = int(np.sqrt(S_e * r_e))
+            W_e = int(np.sqrt(S_e * r_e))
 
             x_e = np.random.randint(0, W)
             y_e = np.random.randint(0, H)
 
             if x_e + W_e <= W and y_e + H_e <= H:
-                img_erased = np.copy(img)
-                img_erased[y_e:int(y_e + H_e), x_e:int(x_e + W_e), :] = np.random.uniform(0, 1)
-                return img_erased
+                break
+
+        mask = np.random.randint(0, 255, (H_e, W_e, 3))
+        img_erased = np.copy(img)
+        img_erased[y_e:y_e + H_e, x_e:x_e + W_e, :] = mask
+        
+        return img_erased
+
 
 train_X_erased = np.copy(train_X)
 for i in range(train_X_erased.shape[0]):
